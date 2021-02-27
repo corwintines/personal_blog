@@ -7,5 +7,7 @@ draft: false
 date: 2021-02-27T18:33:09.135Z
 description: hello world this is a test post
 category: Introduction
+tags:
+  - test
 ---
 Hello World
