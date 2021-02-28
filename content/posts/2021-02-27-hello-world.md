@@ -2,7 +2,7 @@
 template: post
 title: hello world
 slug: hello world
-socialImage: /media/screen-shot-2021-02-24-at-3.44.06-pm.png
+socialImage: /media/img_0861.jpg
 draft: false
 date: 2021-02-27T18:33:09.135Z
 description: hello world!
