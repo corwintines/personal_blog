@@ -1,11 +1,14 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/screen-shot-2021-02-24-at-3.44.06-pm.png"
+template: page
+title: About Me
+slug: About Me
+socialImage: /media/img_0861.jpg
+draft: true
 ---
+I lead the full stack development team on protools at [](https://autovance.com/)[Farmers Edge](https://www.farmersedge.ca/). My team works on two applications for Farmers Edge responsible for two applications used for variable rate technology.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+The first application is ZoneManager, which is responsible for taking satellite imagery for a farmers field, and generating a ZoneMap (GeoJSON) which has polygons representing different zones for the field. In addition to this, we have a suite of tools that are used to edit these ZoneMaps after the zoning process for greater control over how a field is zoned for variable rate.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+The second application is RxPro, which is responsible for taking in information about soil, zones, products, and a number of other variables and produces prescriptions for a field for variable rate applications. These can be used for seeding, fertilizing, and crop protection. 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I am very interested in blockchain technology, and what this is doing to disrupt the world of finance, and identity. This technology feels like it is laying down the groundwork for the "Internet of Finance" or "Internet of Identity", much like the groundwork laid in the 20th century for the "Internet of Information". I would love to enter as soon as possible. There is so much potential for good with this technology, and I would love to be one of the early developers shaping the landscape for this.
