@@ -26,6 +26,20 @@ exports[`PostTemplate renders correctly 1`] = `
         </h1>
         <div
           className="content__body"
+        >
+          <div
+            className="meta"
+          >
+            <p
+              className="meta__date"
+            >
+              Published 
+              Aug 31, 2016
+            </p>
+          </div>
+        </div>
+        <div
+          className="content__body"
           dangerouslySetInnerHTML={
             Object {
               "__html": "<p>test</p>",
@@ -38,50 +52,11 @@ exports[`PostTemplate renders correctly 1`] = `
       className="post__footer"
     >
       <div
-        className="meta"
-      >
-        <p
-          className="meta__date"
-        >
-          Published 
-          Sep 1, 2016
-        </p>
-      </div>
-      <div
-        className="tags"
-      >
-        <ul
-          className="tags__list"
-        >
-          <li
-            className="tags__list-item"
-          >
-            <a
-              className="tags__list-item-link"
-              href="/test_0"
-            >
-              test_0
-            </a>
-          </li>
-          <li
-            className="tags__list-item"
-          >
-            <a
-              className="tags__list-item-link"
-              href="/test_1"
-            >
-              test_1
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div
         className="author"
       >
         <p
           className="author__bio"
         >
-          Test bio
           <a
             className="author__bio-twitter"
             href="https://www.twitter.com/#"

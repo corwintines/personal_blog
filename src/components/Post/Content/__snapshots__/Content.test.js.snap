@@ -11,6 +11,20 @@ exports[`Content renders correctly 1`] = `
   </h1>
   <div
     className="content__body"
+  >
+    <div
+      className="meta"
+    >
+      <p
+        className="meta__date"
+      >
+        Published 
+        Invalid Date
+      </p>
+    </div>
+  </div>
+  <div
+    className="content__body"
     dangerouslySetInnerHTML={
       Object {
         "__html": "<p>test</p>",

@@ -16,9 +16,9 @@ exports[`Sidebar renders correctly 1`] = `
         <img
           alt="Test name"
           className="author__photo"
-          height="75"
+          height="128"
           src="/test.jpg"
-          width="75"
+          width="128"
         />
       </a>
       <h1
@@ -108,7 +108,7 @@ exports[`Sidebar renders correctly 1`] = `
         >
           <a
             className="contacts__list-item-link"
-            href="https://t.me/#"
+            href="#"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -196,7 +196,7 @@ exports[`Sidebar renders correctly 1`] = `
         >
           <a
             className="contacts__list-item-link"
-            href="https://vk.com/#"
+            href="#"
             rel="noopener noreferrer"
             target="_blank"
           >
