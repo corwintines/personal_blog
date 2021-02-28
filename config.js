@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'corwintines',
     photo: '/photo.jpg',
-    bio: `Full Stack Developer. Open to work.`,
+    bio: 'Full Stack Developer. Open to work.',
     contacts: {
       email: 'corwintines@gmail.com',
       twitter: 'corwintines',
