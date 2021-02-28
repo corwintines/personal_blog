@@ -3,7 +3,7 @@ template: page
 title: About Me
 slug: About Me
 socialImage: /media/img_0861.jpg
-draft: true
+draft: false
 ---
 I lead the full stack development team on protools at [](https://autovance.com/)[Farmers Edge](https://www.farmersedge.ca/). My team works on two applications for Farmers Edge responsible for two applications used for variable rate technology.
 
