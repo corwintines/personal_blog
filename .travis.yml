@@ -7,7 +7,7 @@ script:
   - yarn install
   - yarn lint
   - yarn test:coverage --runInBand --no-cache
-  - yarn test --runInBand --no-cache
+  - npm run test
   - codecov
 cache:
   directories:
