@@ -1,11 +1,9 @@
 ---
 template: page
 title: About Me
-slug: About Me
 socialImage: /media/img_0861.jpg
-draft: false
 ---
-I lead the full stack development team on [protools](https://www.farmersedge.ca/smartpro/) at [](https://autovance.com/)Farmers Edge. My team works on two applications for Farmers Edge responsible for two applications used for variable rate technology.
+I lead the full stack development team on [protools](https://www.farmersedge.ca/smartpro/) at Farmers Edge. My team works on two applications for Farmers Edge responsible for two applications used for variable rate technology.
 
 The first application is ZoneManager, which is responsible for taking satellite imagery for a farmers field, and generating a ZoneMap (GeoJSON) which has polygons representing different zones for the field. In addition to this, we have a suite of tools that are used to edit these ZoneMaps after the zoning process for greater control over how a field is zoned for variable rate.
 
