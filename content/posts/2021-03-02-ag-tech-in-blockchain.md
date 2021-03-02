@@ -1,7 +1,7 @@
 ---
 template: post
 title: AgTech in Blockchain
-slug: AgTech
+slug: agtech-in-blockchain
 socialImage: /media/img_0861.jpg
 draft: false
 date: 2021-03-01T01:33:05.105Z
