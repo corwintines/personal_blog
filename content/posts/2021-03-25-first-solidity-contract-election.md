@@ -1,7 +1,7 @@
 ---
 template: post
 title: "First Solidity Contract: Election"
-slug: Solidity
+slug: solidity-election
 socialImage: /media/solidity.jpeg
 draft: false
 date: 2021-03-25T21:48:07.552Z
