@@ -20,7 +20,7 @@ module.exports = {
             categorySlug: '/test'
           },
           frontmatter: {
-            date: '2016-09-01',
+            date: '2016-09-01T00:00:00',
             description: 'test_0',
             category: 'test',
             title: 'test_0'
@@ -34,7 +34,7 @@ module.exports = {
             categorySlug: '/test'
           },
           frontmatter: {
-            date: '2016-09-01',
+            date: '2016-09-01T00:00:00',
             description: 'test_1',
             category: 'test',
             title: 'test_1'

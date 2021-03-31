@@ -1,9 +1,10 @@
 // @flow strict
-import React from 'react';
+import React, { useEffect } from 'react';
 import Helmet from 'react-helmet';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
+import { applyThemeLocale } from '../../utils/themeUtils';
 
 type Props = {
   children: ReactNode,
@@ -21,6 +22,12 @@ const Layout = ({
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage || author.photo;
   const metaImageUrl = url + metaImage;
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      applyThemeLocale();
+    }
+  }, []);
 
   return (
     <div className={styles.layout}>

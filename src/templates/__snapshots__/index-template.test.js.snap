@@ -11,6 +11,14 @@ exports[`IndexTemplate renders correctly 1`] = `
       className="sidebar__inner"
     >
       <div
+        className="switch"
+        onClick={[Function]}
+      >
+        <div
+          className="slider checked"
+        />
+      </div>
+      <div
         className="author"
       >
         <a
@@ -245,9 +253,9 @@ exports[`IndexTemplate renders correctly 1`] = `
             >
               <time
                 className="feed__item-meta-time"
-                dateTime="August 31, 2016"
+                dateTime="September 1, 2016"
               >
-                August 2016
+                September 2016
               </time>
               <span
                 className="feed__item-meta-divider"
@@ -293,9 +301,9 @@ exports[`IndexTemplate renders correctly 1`] = `
             >
               <time
                 className="feed__item-meta-time"
-                dateTime="August 31, 2016"
+                dateTime="September 1, 2016"
               >
-                August 2016
+                September 2016
               </time>
               <span
                 className="feed__item-meta-divider"
