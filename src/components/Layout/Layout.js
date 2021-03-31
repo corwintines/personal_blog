@@ -24,7 +24,7 @@ const Layout = ({
   const metaImageUrl = url + metaImage;
 
   useEffect(() => {
-    if (typeof window !== undefined) {
+    if (typeof window !== 'undefined') {
       applyThemeLocale();
     }
   }, [])
