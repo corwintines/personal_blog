@@ -11,6 +11,14 @@ exports[`TagsListTemplate renders correctly 1`] = `
       className="sidebar__inner"
     >
       <div
+        className="switch"
+        onClick={[Function]}
+      >
+        <div
+          className="slider checked"
+        />
+      </div>
+      <div
         className="author"
       >
         <a
