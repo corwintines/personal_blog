@@ -4,7 +4,7 @@ import Author from './Author';
 import Contacts from './Contacts';
 import Copyright from './Copyright';
 import Menu from './Menu';
-import { Toggle } from '../Toggle/Toggle'
+import { Toggle } from '../Toggle/Toggle';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 
@@ -18,7 +18,7 @@ const Sidebar = ({ isIndex }: Props) => {
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
-        <Toggle />  
+        <Toggle />
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />

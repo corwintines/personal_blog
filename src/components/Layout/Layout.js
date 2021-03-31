@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import type { Node as ReactNode } from 'react';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
-import { applyThemeLocale } from '../../utils/themeUtils'
+import { applyThemeLocale } from '../../utils/themeUtils';
 
 type Props = {
   children: ReactNode,
@@ -27,7 +27,7 @@ const Layout = ({
     if (typeof window !== 'undefined') {
       applyThemeLocale();
     }
-  }, [])
+  }, []);
 
   return (
     <div className={styles.layout}>
