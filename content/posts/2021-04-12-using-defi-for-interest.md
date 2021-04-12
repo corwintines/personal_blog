@@ -1,9 +1,9 @@
 ---
 template: post
-title: Using Defi for Interest
-slug: the-power-of-defi
+title: Using Defi to Collect Interest
+slug: using-defi-to-collect-interest
 socialImage: /media/test.jpeg
-draft: true
+draft: false
 date: 2021-04-12T17:41:14.104Z
 description: Talking about defi for interest vs centralized
 category: Blockchain
